@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                   http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <changeSet id="2" author="JetDaniels">
+        <insert tableName="outside_systems">
+            <column name="system_name" value="ADMIN_UI_LOCAL"/>
+            <column name="link" value="http://localhost:8090/"/>
+            <column name="system_type" value="LOCAL"/>
+        </insert>
+        <insert tableName="connections">
+            <column name="connection_name" value="LOCAL_FOLDER"/>
+            <column name="connection_type" value="LOCAL"/>
+            <column name="connection_url" value="D://JavaProjects//monkeywriter//generated"/>
+        </insert>
+        <insert tableName="documents">
+            <column name="document_name" value="document1"/>
+            <column name="template" value="template1"/>
+        </insert>
+        <insert tableName="documents">
+            <column name="document_name" value="document2"/>
+            <column name="template" value="template2"/>
+        </insert>
+        <insert tableName="roles">
+            <column name="role_name" value="ADMIN"/>
+        </insert>
+        <insert tableName="roles">
+            <column name="role_name" value="USER"/>
+        </insert>
+        <insert tableName="users">
+            <column name="login" value="admin"/>
+            <column name="password" value="$2y$12$ddlBeiJPA0ZM9F51sQ0PhuQCjF4XnoKB.IgxxtW.m9oARNvYh7hs."/> <!--admin-->
+            <column name="role" value="ADMIN"/>
+            <column name="is_active" value="true"/>
+        </insert>
+        <insert tableName="users">
+            <column name="login" value="user"/>
+            <column name="password" value="$2y$12$GXmXfv.5DWy.UtUIaRBe7ewWPaxvLX3gLnI8RZFYSQEADmdsXUdj."/> <!--user-->
+            <column name="role" value="USER"/>
+            <column name="is_active" value="true"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94ebfb12-e3c7-4f69-855e-783329419d69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1pmq1MJGnScKNVHliY2T6oU7ZkB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db.changelog" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.doccreator.autotest" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.doccreator.component" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\monkeywriter\src\main\resources\autotest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\monkeywriter\src\main\resources\db.changelog" />
+      <recent name="D:\JavaProjects\monkeywriter\src\main\resources\autotest\standards" />
+      <recent name="D:\JavaProjects\monkeywriter\src\main\resources\autotest\generated" />
+      <recent name="D:\JavaProjects\monkeywriter\src\main\resources\templates" />
+      <recent name="D:\JavaProjects\monkeywriter\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.doccreator.component.dto" />
+      <recent name="org.doccreator.controller.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.38">
+    <configuration name="DocCreateServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monkeywriter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doccreator.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.doccreator.service" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.service.DocCreateServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocCreateServiceImplTest.testDocCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monkeywriter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doccreator.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.doccreator.service" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.service.DocCreateServiceImplTest" />
+      <option name="METHOD_NAME" value="testDocCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocCreateServiceImplTest.testDocCreate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monkeywriter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doccreator.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.doccreator.service" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.service.DocCreateServiceImplTest" />
+      <option name="METHOD_NAME" value="testDocCreate2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentsComparatorTest.compareTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monkeywriter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doccreator.autotest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.doccreator.autotest" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.autotest.DocumentsComparatorTest" />
+      <option name="METHOD_NAME" value="compareTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorTest.testOperator1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monkeywriter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doccreator.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.doccreator.component" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.OperatorTest" />
+      <option name="METHOD_NAME" value="testOperator1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/monkeywriter/" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/target/monkeywriter-1.0.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/monkeywriter" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_38_monkeywriter" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5129" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/monkeywriter_1_0_war/" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/target/monkeywriter-1.0.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/monkeywriter_1_0_war" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_monkeywriter" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5129" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DocCreateServiceImplTest.testDocCreate" />
+      <item itemvalue="JUnit.DocCreateServiceImplTest.testDocCreate2" />
+      <item itemvalue="JUnit.OperatorTest.testOperator1" />
+      <item itemvalue="JUnit.DocCreateServiceImplTest" />
+      <item itemvalue="JUnit.DocumentsComparatorTest.compareTest1" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DocumentsComparatorTest.compareTest1" />
+        <item itemvalue="JUnit.DocCreateServiceImplTest" />
+        <item itemvalue="JUnit.DocCreateServiceImplTest.testDocCreate" />
+        <item itemvalue="JUnit.OperatorTest.testOperator1" />
+        <item itemvalue="JUnit.DocCreateServiceImplTest.testDocCreate2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.04377565" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94ebfb12-e3c7-4f69-855e-783329419d69" name="Default Changelist" comment="" />
+      <created>1615798396391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615798396391</updated>
+      <workItem from="1615798401979" duration="3239000" />
+      <workItem from="1615806554169" duration="240000" />
+      <workItem from="1615808041173" duration="106000" />
+      <workItem from="1615808176755" duration="651000" />
+      <workItem from="1615809041058" duration="12000" />
+      <workItem from="1615809078970" duration="19674000" />
+      <workItem from="1615828927252" duration="4000" />
+      <workItem from="1615880449549" duration="4224000" />
+      <workItem from="1615886487203" duration="3939000" />
+      <workItem from="1615890627162" duration="20422000" />
+      <workItem from="1615974337345" duration="783000" />
+      <workItem from="1615975513012" duration="7000" />
+      <workItem from="1615975552726" duration="17009000" />
+      <workItem from="1616057637948" duration="15615000" />
+      <workItem from="1616243380934" duration="449000" />
+      <workItem from="1616310974853" duration="230000" />
+      <workItem from="1616311234706" duration="108000" />
+      <workItem from="1616311442477" duration="21193000" />
+      <workItem from="1616656518993" duration="8254000" />
+      <workItem from="1616677406945" duration="3590000" />
+      <workItem from="1616751388118" duration="8823000" />
+      <workItem from="1617015297610" duration="14096000" />
+      <workItem from="1617031135169" duration="2181000" />
+      <workItem from="1617085606985" duration="19230000" />
+      <workItem from="1617171338505" duration="602000" />
+      <workItem from="1617180406392" duration="10442000" />
+      <workItem from="1617256128555" duration="1029000" />
+      <workItem from="1617257179201" duration="8509000" />
+      <workItem from="1617348278407" duration="17735000" />
+      <workItem from="1617376126739" duration="6537000" />
+      <workItem from="1617601728004" duration="19179000" />
+      <workItem from="1617706575298" duration="9688000" />
+      <workItem from="1617777307617" duration="8576000" />
+      <workItem from="1617873485014" duration="2768000" />
+      <workItem from="1617899241075" duration="26000" />
+      <workItem from="1617899301114" duration="906000" />
+      <workItem from="1618269675672" duration="3216000" />
+      <workItem from="1618449091764" duration="3531000" />
+      <workItem from="1618830487458" duration="6786000" />
+      <workItem from="1620375522822" duration="807000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="69" key="#Tomcat_Server" timestamp="1615808757117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="69" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1615808757117" />
+    <state x="219" y="49" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616064616842">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="219" y="49" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616064616842" />
+    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1618462315505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1618462315505" />
+    <state x="410" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1617256228442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1617256228442" />
+    <state x="565" y="271" width="422" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1617712153702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="271" width="422" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1617712153702" />
+    <state x="565" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1617256234022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1617256234022" />
+    <state x="219" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617030281312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="219" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1617030281312" />
+    <state x="576" y="166" key="FileChooserDialogImpl" timestamp="1615813709952">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="576" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615813709952" />
+    <state width="1397" height="664" key="GridCell.Tab.0.bottom" timestamp="1618839470822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618839470822" />
+    <state width="1397" height="664" key="GridCell.Tab.0.center" timestamp="1618839470822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618839470822" />
+    <state width="1397" height="664" key="GridCell.Tab.0.left" timestamp="1618839470820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618839470820" />
+    <state width="1397" height="664" key="GridCell.Tab.0.right" timestamp="1618839470822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618839470822" />
+    <state width="1397" height="664" key="GridCell.Tab.1.bottom" timestamp="1618839470823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618839470823" />
+    <state width="1397" height="664" key="GridCell.Tab.1.center" timestamp="1618839470823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1618839470823" />
+    <state width="1397" height="664" key="GridCell.Tab.1.left" timestamp="1618839470823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1618839470823" />
+    <state width="1397" height="664" key="GridCell.Tab.1.right" timestamp="1618839470823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618839470823" />
+    <state width="1397" height="664" key="GridCell.Tab.2.bottom" timestamp="1618839470823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618839470823" />
+    <state width="1397" height="664" key="GridCell.Tab.2.center" timestamp="1618839470822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1618839470822" />
+    <state width="1397" height="664" key="GridCell.Tab.2.left" timestamp="1618839470822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1618839470822" />
+    <state width="1397" height="664" key="GridCell.Tab.2.right" timestamp="1618839470823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1397" height="664" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1618839470823" />
+    <state x="276" y="0" key="SettingsEditor" timestamp="1617031025098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="276" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1617031025098" />
+    <state x="539" y="114" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1617028148447">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="114" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1617028148447" />
+    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1617877928300">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617877928300" />
+    <state x="208" y="0" key="new project wizard" timestamp="1617112648794">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="208" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1617112648794" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1618449278194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1618449278194" />
+  </component>
+</project>

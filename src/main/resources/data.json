@@ -1,0 +1,9 @@
+{
+  "project":{
+    "name": "XDocReport",
+    "developer":[
+      {"name": "A"},
+      {"name": "B"}
+    ]
+  }
+}

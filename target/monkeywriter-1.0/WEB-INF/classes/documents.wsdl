@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://doccreator.org"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:tns="http://doccreator.org" targetNamespace="http://doccreator.org"
+                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://doccreator.org" targetNamespace="http://doccreator.org"
+                   elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:tns="http://doccreator.org">
+
+            <xs:element name="createDocumentsRequest">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Id" type="xs:string"/>
+                        <xs:element name="System" type="xs:string"/>
+                        <xs:element name="Connection" type="xs:string"/>
+                        <xs:element name="XmlData" type="xs:string"/>
+                        <xs:element name="Document" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="createDocumentsResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="ID" type="xs:string"/>
+                        <xs:element name="Code" type="xs:string"/>
+                        <xs:element name="Message" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+
+    <wsdl:message name="createDocumentsRequest">
+        <wsdl:part element="tns:createDocumentsRequest" name="createDocumentsRequest"/>
+    </wsdl:message>
+    <wsdl:message name="createDocumentsResponse">
+        <wsdl:part element="tns:createDocumentsResponse" name="createDocumentsResponse"/>
+    </wsdl:message>
+
+    <wsdl:portType name="CreateDocumentsPort">
+        <wsdl:operation name="createDocumentsRequest">
+            <wsdl:input message="tns:createDocumentsRequest" name="createDocumentsRequest"/>
+            <wsdl:output message="tns:createDocumentsResponse" name="createDocumentsResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="CreateDocumentsPortSoap" type="tns:CreateDocumentsPort">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="createDocumentsRequest">
+            <soap:operation soapAction=""/>
+            <wsdl:input name="createDocumentsRequest">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="createDocumentsResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="CreateDocumentsPortService">
+        <wsdl:port name="CreateDocumentsPortSoap" binding="tns:CreateDocumentsPortSoap">
+            <soap:address location="http://localhost:8080/monkeywriter/ws/create-documents"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

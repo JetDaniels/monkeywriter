@@ -1,0 +1,3 @@
+org\doccreator\AppTest.class
+org\doccreator\service\DocCreateServiceImplTest.class
+org\doccreator\component\OperatorTest.class
