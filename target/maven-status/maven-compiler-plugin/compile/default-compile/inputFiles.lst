@@ -9,6 +9,7 @@ D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\CDRDocumentsSe
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\CreateDocumentsRequestService.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\repository\CreateDocumentsRequestsLabelRepository.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\CreateDocumentsService.java
+D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\component\KafkaConsumer.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\controller\UserController.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\controller\PingAppController.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\repository\PDRDocumentsRepository.java
@@ -32,6 +33,7 @@ D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\component\entity\embed
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\repository\CDRDocumentsRepository.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\impl\CreateDocumentsRequestServiceImpl.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\config\WebServiceConfig.java
+D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\config\KafkaProducerConfig.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\repository\DocumentsRepository.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\util\DTOGenerator.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\CreateDocumentsRequestsStepsService.java
@@ -47,6 +49,7 @@ D:\JavaProjects\monkeywriter\target\generated-sources\xjc\org\doccreator\CreateD
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\repository\CreateDocumentsRequestRepository.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\impl\CDRDocumentsServiceImpl.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\repository\ConnectionRepository.java
+D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\config\KafkaConsumerConfig.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\App.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\repository\PutDocumentsRequestRepository.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\impl\ConnectionServiceImpl.java
@@ -54,6 +57,7 @@ D:\JavaProjects\monkeywriter\target\generated-sources\xjc\org\doccreator\CreateD
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\DocumentsService.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\impl\DocumentsServiceImpl.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\component\entity\DocumentDTO.java
+D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\component\KafkaProducer.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\component\entity\CreateDocumentsRequestDTO.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\service\impl\OutsideSystemServiceImpl.java
 D:\JavaProjects\monkeywriter\src\main\java\org\doccreator\util\DocumentCorrector.java

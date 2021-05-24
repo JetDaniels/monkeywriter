@@ -1,7 +1,11 @@
 package org.doccreator.endpoint;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 import org.doccreator.CreateDocumentsRequest;
 import org.doccreator.CreateDocumentsResponse;
+import org.doccreator.component.KafkaConsumer;
+import org.doccreator.component.KafkaProducer;
 import org.doccreator.component.Operator;
 import org.doccreator.component.entity.CDRDocumentDTO;
 import org.doccreator.component.entity.CreateDocumentsRequestDTO;
@@ -27,18 +31,18 @@ public class CreateDocumentsRequestEndpoint {
     private final CreateDocumentsRequestsStepsService createDocumentsRequestsStepsService;
     private final DocumentsService documentService;
     private final CDRDocumentsService cdrDocumentsService;
-    private Operator operator;
+    private KafkaProducer kafkaProducer;
 
     @Autowired
     CreateDocumentsRequestEndpoint(CreateDocumentsRequestService createDocumentsRequestService,
                                    CreateDocumentsRequestsStepsService createDocumentsRequestsStepsService,
                                    DocumentsService documentService, CDRDocumentsService cdrDocumentsService,
-                                   Operator operator){
+                                   KafkaProducer kafkaProducer){
         this.createDocumentsRequestService = createDocumentsRequestService;
         this.createDocumentsRequestsStepsService = createDocumentsRequestsStepsService;
         this.documentService = documentService;
         this.cdrDocumentsService = cdrDocumentsService;
-        this.operator = operator;
+        this.kafkaProducer = kafkaProducer;
     }
 
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "createDocumentsRequest")
@@ -48,19 +52,8 @@ public class CreateDocumentsRequestEndpoint {
         response.setID(request.getId());
         response.setCode("200");
         response.setMessage("SUCCESS");
-
-        CreateDocumentsRequestDTO requestDTO = createDocumentsRequestService.save(DTOGenerator.getCDRDTO(request));
-        createDocumentsRequestsStepsService.save(DTOGenerator.getCDRStepDTO(requestDTO, 0, "Request received", "Request received"));
-        for(String document: request.getDocument()){
-            CDRDocumentDTO cdrDocumentDTO = new CDRDocumentDTO();
-            CDRDocumentId documentId = new CDRDocumentId();
-            documentId.setCdrId(requestDTO.getId());
-            documentId.setDocumentName(document);
-            cdrDocumentDTO.setId(documentId);
-            cdrDocumentsService.save(cdrDocumentDTO);
-        }
-
-        operator.CreateAndPutDocuments(requestDTO);
+        ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+        kafkaProducer.sendMessage(ow.writeValueAsString(request));
         return response;
     }
 

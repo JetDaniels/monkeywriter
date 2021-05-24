@@ -1,4 +1,5 @@
 org\doccreator\component\entity\embedded\PDRDocumentId.class
+org\doccreator\component\KafkaConsumer.class
 org\doccreator\controller\DocumentController.class
 org\doccreator\config\WebServiceConfig.class
 org\doccreator\controller\ConnectionController.class
@@ -17,6 +18,8 @@ org\doccreator\component\entity\embedded\CDRDocumentId.class
 org\doccreator\component\entity\CreateDocumentsRequestDTO.class
 org\doccreator\component\entity\PDRDocumentDTO.class
 org\doccreator\service\impl\DocumentsServiceImpl.class
+org\doccreator\component\KafkaProducer.class
+org\doccreator\config\KafkaConsumerConfig.class
 org\doccreator\controller\AuthController.class
 org\doccreator\service\CreateDocumentsRequestService.class
 org\doccreator\service\UserService.class
@@ -44,6 +47,7 @@ org\doccreator\service\OutsideSystemService.class
 org\doccreator\service\PutDocumentsRequestService.class
 org\doccreator\controller\UserController.class
 org\doccreator\service\ConnectionService.class
+org\doccreator\config\KafkaProducerConfig.class
 org\doccreator\service\impl\PDRDocumentsServiceImpl.class
 org\doccreator\controller\PingAppController.class
 org\doccreator\util\DocumentCorrector.class
