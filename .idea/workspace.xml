@@ -2,28 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ebfb12-e3c7-4f69-855e-783329419d69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Archiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/config/EnvironmentsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DOMOperationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/util/XPathParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/doccreator/component/ArchiverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/doccreator/component/WordReaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DocumentCorrector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DocumentCorrector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/template1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/template1.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/template2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/template2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sun-jaxb.episode" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/sun-jaxb.episode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/util/DocumentCorrector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/util/DocumentCorrector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/template1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/template1.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/template2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/template2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/xjc/META-INF/sun-jaxb.episode" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/META-INF/sun-jaxb.episode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/xjc/org/doccreator/CreateDocumentsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/org/doccreator/CreateDocumentsRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/xjc/org/doccreator/CreateDocumentsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/org/doccreator/CreateDocumentsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/xjc/org/doccreator/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/org/doccreator/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/xjc/org/doccreator/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/org/doccreator/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/monkeywriter-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/monkeywriter-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/monkeywriter-1.0/WEB-INF/classes/META-INF/sun-jaxb.episode" beforeDir="false" afterPath="$PROJECT_DIR$/target/monkeywriter-1.0/WEB-INF/classes/META-INF/sun-jaxb.episode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/monkeywriter-1.0/WEB-INF/classes/templates/template2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/target/monkeywriter-1.0/WEB-INF/classes/templates/template2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/monkeywriter-1.0/WEB-INF/lib/freemarker-2.3.26-incubating.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.doccreator.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.doccreator.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.doccreator.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.doccreator.AppTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,7 +83,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db.changelog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../docx-generator" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="project.structure.last.edited" value="Project" />
@@ -76,6 +92,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.doccreator.component.dto" />
+      <recent name="org.doccreator.controller.dto" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.doccreator.autotest" />
     </key>
@@ -84,9 +104,6 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.doccreator.component" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaProjects\monkeywriter\src\main\resources\autotest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProjects\monkeywriter\src\main\resources\db.changelog" />
@@ -99,76 +116,13 @@
       <recent name="org.doccreator.component" />
       <recent name="org.doccreator.config" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.doccreator.component.dto" />
-      <recent name="org.doccreator.controller.dto" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\monkeywriter\src\main\resources\templates" />
+      <recent name="D:\JavaProjects\monkeywriter\src\main\resources\autotest" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.38">
-    <configuration name="DocCreateServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="monkeywriter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.doccreator.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.doccreator.service" />
-      <option name="MAIN_CLASS_NAME" value="org.doccreator.service.DocCreateServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocCreateServiceImplTest.testDocCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="monkeywriter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.doccreator.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.doccreator.service" />
-      <option name="MAIN_CLASS_NAME" value="org.doccreator.service.DocCreateServiceImplTest" />
-      <option name="METHOD_NAME" value="testDocCreate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocCreateServiceImplTest.testDocCreate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="monkeywriter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.doccreator.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.doccreator.service" />
-      <option name="MAIN_CLASS_NAME" value="org.doccreator.service.DocCreateServiceImplTest" />
-      <option name="METHOD_NAME" value="testDocCreate2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocumentsComparatorTest.compareTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="monkeywriter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.doccreator.autotest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.doccreator.autotest" />
-      <option name="MAIN_CLASS_NAME" value="org.doccreator.autotest.DocumentsComparatorTest" />
-      <option name="METHOD_NAME" value="compareTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperatorTest.testOperator1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WordReaderTest.wordReaderTest1">
+    <configuration name="ArchiverTest.testArchiver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="monkeywriter" />
       <extension name="coverage">
         <pattern>
@@ -177,8 +131,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.doccreator.component" />
-      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.OperatorTest" />
-      <option name="METHOD_NAME" value="testOperator1" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.ArchiverTest" />
+      <option name="METHOD_NAME" value="testArchiver" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArchiverTest.testArchiver2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monkeywriter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doccreator.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.doccreator.component" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.ArchiverTest" />
+      <option name="METHOD_NAME" value="testArchiver2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DOMWordParserTest.testParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monkeywriter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doccreator.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.doccreator.component" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.DOMWordParserTest" />
+      <option name="METHOD_NAME" value="testParser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordParserTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monkeywriter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doccreator.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.doccreator.component" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.WordParserTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordReaderTest.wordReaderTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monkeywriter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doccreator.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.doccreator.component" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.WordReaderTest" />
+      <option name="METHOD_NAME" value="wordReaderTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,20 +353,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DocCreateServiceImplTest.testDocCreate" />
-      <item itemvalue="JUnit.DocCreateServiceImplTest.testDocCreate2" />
-      <item itemvalue="JUnit.OperatorTest.testOperator1" />
-      <item itemvalue="JUnit.DocCreateServiceImplTest" />
-      <item itemvalue="JUnit.DocumentsComparatorTest.compareTest1" />
+      <item itemvalue="JUnit.ArchiverTest.testArchiver2" />
+      <item itemvalue="JUnit.DOMWordParserTest.testParser" />
+      <item itemvalue="JUnit.ArchiverTest.testArchiver" />
+      <item itemvalue="JUnit.WordParserTest.test1" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
+      <item itemvalue="JUnit.WordReaderTest.wordReaderTest1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DocumentsComparatorTest.compareTest1" />
-        <item itemvalue="JUnit.DocCreateServiceImplTest" />
-        <item itemvalue="JUnit.DocCreateServiceImplTest.testDocCreate" />
-        <item itemvalue="JUnit.OperatorTest.testOperator1" />
-        <item itemvalue="JUnit.DocCreateServiceImplTest.testDocCreate2" />
+        <item itemvalue="JUnit.WordReaderTest.wordReaderTest1" />
+        <item itemvalue="JUnit.WordParserTest.test1" />
+        <item itemvalue="JUnit.DOMWordParserTest.testParser" />
+        <item itemvalue="JUnit.ArchiverTest.testArchiver" />
+        <item itemvalue="JUnit.ArchiverTest.testArchiver2" />
       </list>
     </recent_temporary>
   </component>
@@ -362,11 +380,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -440,7 +453,20 @@
       <workItem from="1621837339359" duration="9876000" />
       <workItem from="1622183376989" duration="2817000" />
       <workItem from="1622393664593" duration="420000" />
-      <workItem from="1622439736222" duration="5078000" />
+      <workItem from="1622439736222" duration="6239000" />
+      <workItem from="1622448455115" duration="250000" />
+      <workItem from="1623070433213" duration="64000" />
+      <workItem from="1623414638197" duration="1642000" />
+      <workItem from="1623771461753" duration="1809000" />
+      <workItem from="1623774119419" duration="13000" />
+      <workItem from="1624168361176" duration="1606000" />
+      <workItem from="1624170390675" duration="27566000" />
+      <workItem from="1624365149538" duration="9970000" />
+      <workItem from="1624380540279" duration="1220000" />
+      <workItem from="1624432345522" duration="25234000" />
+      <workItem from="1624785377793" duration="16382000" />
+      <workItem from="1624801929749" duration="36000" />
+      <workItem from="1624863571742" duration="23154000" />
     </task>
     <servers />
   </component>
@@ -448,18 +474,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="69" key="#Tomcat_Server" timestamp="1615808757117">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="360" y="69" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1615808757117" />
     <state x="219" y="49" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621782198860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="219" y="49" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1621782198860" />
-    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1618462315505">
+    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1624793998932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1618462315505" />
+    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1624793998932" />
     <state x="357" y="60" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1621782163672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -468,10 +490,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1617256228442" />
-    <state x="565" y="271" width="422" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1617712153702">
+    <state x="565" y="271" width="422" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1624197733474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="565" y="271" width="422" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1617712153702" />
+    <state x="565" y="271" width="422" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1624197733474" />
     <state x="565" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1617256234022">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -480,58 +502,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="219" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1617030281312" />
-    <state x="576" y="166" key="FileChooserDialogImpl" timestamp="1615813709952">
+    <state x="576" y="166" key="FileChooserDialogImpl" timestamp="1623070495155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="576" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615813709952" />
-    <state width="1397" height="664" key="GridCell.Tab.0.bottom" timestamp="1622445355970">
+    <state x="576" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1623070495155" />
+    <state width="1491" height="530" key="GridCell.Tab.0.bottom" timestamp="1624890812656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622445355970" />
-    <state width="1397" height="664" key="GridCell.Tab.0.center" timestamp="1622445355970">
+    <state width="1491" height="530" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624890812656" />
+    <state width="1491" height="530" key="GridCell.Tab.0.center" timestamp="1624890812656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622445355970" />
-    <state width="1397" height="664" key="GridCell.Tab.0.left" timestamp="1622445355970">
+    <state width="1491" height="530" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624890812656" />
+    <state width="1491" height="530" key="GridCell.Tab.0.left" timestamp="1624890812656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622445355970" />
-    <state width="1397" height="664" key="GridCell.Tab.0.right" timestamp="1622445355970">
+    <state width="1491" height="530" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624890812656" />
+    <state width="1491" height="530" key="GridCell.Tab.0.right" timestamp="1624890812656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622445355970" />
-    <state width="1397" height="664" key="GridCell.Tab.1.bottom" timestamp="1622445355971">
+    <state width="1491" height="530" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624890812656" />
+    <state width="1397" height="664" key="GridCell.Tab.1.bottom" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622445355971" />
-    <state width="1397" height="664" key="GridCell.Tab.1.center" timestamp="1622445355970">
+    <state width="1397" height="664" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
+    <state width="1397" height="664" key="GridCell.Tab.1.center" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622445355970" />
-    <state width="1397" height="664" key="GridCell.Tab.1.left" timestamp="1622445355970">
+    <state width="1397" height="664" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
+    <state width="1397" height="664" key="GridCell.Tab.1.left" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622445355970" />
-    <state width="1397" height="664" key="GridCell.Tab.1.right" timestamp="1622445355971">
+    <state width="1397" height="664" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
+    <state width="1397" height="664" key="GridCell.Tab.1.right" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622445355971" />
-    <state width="1397" height="664" key="GridCell.Tab.2.bottom" timestamp="1622445355971">
+    <state width="1397" height="664" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
+    <state width="1397" height="664" key="GridCell.Tab.2.bottom" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622445355971" />
-    <state width="1397" height="664" key="GridCell.Tab.2.center" timestamp="1622445355971">
+    <state width="1397" height="664" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
+    <state width="1397" height="664" key="GridCell.Tab.2.center" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1622445355971" />
-    <state width="1397" height="664" key="GridCell.Tab.2.left" timestamp="1622445355971">
+    <state width="1397" height="664" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
+    <state width="1397" height="664" key="GridCell.Tab.2.left" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1622445355971" />
-    <state width="1397" height="664" key="GridCell.Tab.2.right" timestamp="1622445355971">
+    <state width="1397" height="664" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
+    <state width="1397" height="664" key="GridCell.Tab.2.right" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1622445355971" />
+    <state width="1397" height="664" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
     <state x="276" y="0" key="SettingsEditor" timestamp="1617031025098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -540,17 +562,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="539" y="114" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1617028148447" />
-    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1621838640073">
+    <state x="498" y="177" key="extract.method.dialog" timestamp="1624879863315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1621838640073" />
+    <state x="498" y="177" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1624879863315" />
+    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1624869854618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1624869854618" />
     <state x="208" y="0" key="new project wizard" timestamp="1617112648794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="208" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1617112648794" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1618449278194">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1624444699123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1618449278194" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1624444699123" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1624195972553">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1624195972553" />
   </component>
 </project>
