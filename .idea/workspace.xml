@@ -1,75 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94ebfb12-e3c7-4f69-855e-783329419d69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP53_20210531100336000000611_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP53_20210531100338000000475_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP5_20210531095359000000815_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP5_20210531095402000000267_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP5_20210531095952000000736_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP5_20210531095954000000886_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP_3_20210531091622000000144_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP_3_20210531091624000000033_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP_4_20210531093003000000035_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP_4_20210531093005000000203_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP_4_20210531093312000000291_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP_4_20210531093313000000961_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP_4_20210531094705000000122_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAP_4_20210531094707000000743_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAPq53_20210531101136000000458_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAPq53_20210531101138000000718_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAPw53_20210531100633000000620_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_SOAPw53_20210531100635000000607_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_TEST0_20210531100142000000215_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/E2E_TEST_1_20210531091834000000274_dirty.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/TEST_1_20210405152511000000404_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/TEST_1_20210405152851000000661_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/TEST_3_20210405143552000000255_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/TEST_3_20210405143947000000212_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/TEST_3_20210405144253000000743_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/ADMIN_2_20210413054220000000034_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/ADMIN_2_20210413054220000000310_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/ADMIN_3_20210413060056000000537_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/ADMIN_5_20210524124746000000334_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/ADMIN_5_20210524124748000000020_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/E2E_1_20210528114626000000007_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/E2E_3_20210528115006000000173_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/E2E_4_20210528115524000000613_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/E2E_SOAPqt53_20210531101528000000038_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/E2E_SOAPqt53_20210531101530000000114_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/TEST_8_20210524125503000000838_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/TEST_8_20210524125505000000802_out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/block2/word/_rels/document.xml.rels" beforeDir="false" afterPath="$PROJECT_DIR$/operatingRoom/block2/word/_rels/document.xml.rels" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/template1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/operatingRoom/template1.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/template1/docProps/app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/operatingRoom/template1/docProps/app.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/template1/docProps/core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/operatingRoom/template1/docProps/core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/template1/template1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/template1/word/document.xml" beforeDir="false" afterPath="$PROJECT_DIR$/operatingRoom/template1/word/document.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/template1/word/fontTable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/operatingRoom/template1/word/fontTable.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/template1/word/numbering.xml" beforeDir="false" afterPath="$PROJECT_DIR$/operatingRoom/template1/word/numbering.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/template1/word/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/operatingRoom/template1/word/settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatingRoom/template1/word/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/operatingRoom/template1/word/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Archiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Archiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordInjector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DOMOperationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DOMOperationUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DocumentCorrector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DocumentCorrector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/util/XPathParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/util/XPathParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/template1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/template1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/template3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/template3.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/doccreator/component/WordReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/doccreator/component/WordReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordInjector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordInjector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/util/DOMOperationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/util/DOMOperationUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/util/DocumentCorrector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/util/DocumentCorrector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/util/XPathParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/util/XPathParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/template1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/template1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/template3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/template3.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/doccreator/component/WordReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/doccreator/component/WordReaderTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="94ebfb12-e3c7-4f69-855e-783329419d69" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -519,7 +451,7 @@
       <workItem from="1625038117705" duration="20517000" />
       <workItem from="1625071266080" duration="1969000" />
       <workItem from="1625073865311" duration="4162000" />
-      <workItem from="1625119962907" duration="15979000" />
+      <workItem from="1625119962907" duration="16476000" />
     </task>
     <servers />
   </component>
