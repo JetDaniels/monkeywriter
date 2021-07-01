@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94ebfb12-e3c7-4f69-855e-783329419d69" name="Default Changelist" comment="" />
+    <list default="true" id="94ebfb12-e3c7-4f69-855e-783329419d69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Archiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Archiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/template1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/template1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/template3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/template3.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordReader.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -343,8 +351,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WordReaderTest.wordReaderTest1" />
-        <item itemvalue="JUnit.WordReaderTest.wordReaderTest3" />
         <item itemvalue="JUnit.WordReaderTest.wordReaderTest2" />
+        <item itemvalue="JUnit.WordReaderTest.wordReaderTest3" />
         <item itemvalue="JUnit.WordParserTest.test1" />
         <item itemvalue="JUnit.DOMWordParserTest.testParser" />
       </list>
@@ -451,7 +459,8 @@
       <workItem from="1625038117705" duration="20517000" />
       <workItem from="1625071266080" duration="1969000" />
       <workItem from="1625073865311" duration="4162000" />
-      <workItem from="1625119962907" duration="16476000" />
+      <workItem from="1625119962907" duration="17378000" />
+      <workItem from="1625146111758" duration="1764000" />
     </task>
     <servers />
   </component>
@@ -463,10 +472,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="219" y="49" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1621782198860" />
-    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1625066455821">
+    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1625146475491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1625066455821" />
+    <state x="903" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1625146475491" />
     <state x="357" y="60" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1621782163672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -491,22 +500,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1623070495155" />
-    <state width="1491" height="356" key="GridCell.Tab.0.bottom" timestamp="1625137104709">
+    <state width="1491" height="356" key="GridCell.Tab.0.bottom" timestamp="1625147924052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="356" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625137104709" />
-    <state width="1491" height="356" key="GridCell.Tab.0.center" timestamp="1625137104709">
+    <state width="1491" height="356" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625147924052" />
+    <state width="1491" height="356" key="GridCell.Tab.0.center" timestamp="1625147924052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="356" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625137104709" />
-    <state width="1491" height="356" key="GridCell.Tab.0.left" timestamp="1625137104709">
+    <state width="1491" height="356" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625147924052" />
+    <state width="1491" height="356" key="GridCell.Tab.0.left" timestamp="1625147924052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="356" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625137104709" />
-    <state width="1491" height="356" key="GridCell.Tab.0.right" timestamp="1625137104709">
+    <state width="1491" height="356" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625147924052" />
+    <state width="1491" height="356" key="GridCell.Tab.0.right" timestamp="1625147924052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="356" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625137104709" />
+    <state width="1491" height="356" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625147924052" />
     <state width="1397" height="664" key="GridCell.Tab.1.bottom" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

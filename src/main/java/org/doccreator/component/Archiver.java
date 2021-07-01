@@ -1,5 +1,6 @@
 package org.doccreator.component;
 
+import fr.opensagres.xdocreport.core.io.XDocArchive;
 import net.lingala.zip4j.ZipFile;
 import org.doccreator.config.EnvironmentsConfig;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -76,5 +77,9 @@ public class Archiver {
         });
         zos.close();
         zipFile.renameTo(new File(zipFile.getAbsolutePath().replace(".zip", ".docx")));
+    }
+
+    public void test(File sourceFile){
+        XDocArchive xDocArchive = new XDocArchive();
     }
 }

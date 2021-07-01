@@ -73,7 +73,6 @@ public class WordReader {
             //Удаляем параграф с ссылкой
             wordInjector.removeParagraph(link);
         }
-
         archiver.zipTemplate(new File(OPERATING_ROOM.concat("//" + baseTemplate)));
     }
 
@@ -92,14 +91,10 @@ public class WordReader {
         if(childNodes != null){
             for(int i=0; i<childNodes.getLength(); i++){
                 Node currNode = childNodes.item(i);
-                String value = currNode.getNodeValue();
+                String value = currNode.getTextContent();
                 String link = null;
                 if((value != null)&&(value.contains("//@block"))) {
-                    link = value.replace("MERGEFIELD  //@", "")
-                            .replace("\\* MERGEFORMAT","")
-                            .replace("«//@","")
-                            .replace("»","")
-                            .trim();
+                    link = value.replace("//@","") .trim();
                 }else link = searchMark(currNode);
                 if(link != null) return link;
             }
