@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se wp14">
+<w:body>
+<w:p w:rsidP="0031431A" w:rsidR="00B84DE1" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:spacing w:after="0"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:b/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:b/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+<w:t>Пример сформированного документа</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="006A358B" w:rsidRPr="00385218">
+<w:pPr>
+<w:spacing w:after="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00385218">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+<w:t>//</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>space</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="00CB4BDF" w:rsidR="0055339B" w:rsidRDefault="0031431A" w:rsidRPr="00CB4BDF">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t>В Гороховой улице, в одном из больших домов, народонаселения которого стало бы на целый уездный город, лежал утром в постели, на свое</w:t>
+</w:r>
+<w:r w:rsidR="000169CF">
+<w:t>й квартире, Илья Ильич Обломов.</w:t>
+</w:r>
+<w:r w:rsidR="005D4333" w:rsidRPr="005D4333">
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidR="005D4333">
+<w:t xml:space="preserve">Текст </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidR="005D4333">
+<w:t>текст</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidR="005D4333">
+<w:t>.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="00CB4BDF" w:rsidR="00CB22C4" w:rsidRDefault="0031431A" w:rsidRPr="004122FC">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t>Это был человек лет тридцати двух-трех от роду, среднего роста, приятной наружности, с темно-серыми глазами, но с отсутствием всякой определенной идеи, всякой сосредоточенности в чертах лица. Мысль гуляла вольной птицей по лицу, порхала в глазах, садилась на полуотворенные губы, пряталась в складках лба, потом совсем пропадала, и тогда во всем лице теплился ровный свет беспечности. С лица беспечность переходила в позы всего</w:t>
+</w:r>
+<w:r w:rsidR="002224DF">
+<w:t xml:space="preserve"> тела, даже в складки шлафрока.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Иногда взгляд его помрачался выражением будто усталости или скуки; но ни усталость, ни скука не могли ни на минуту согнать с лица мягкость, которая была господствующим и основным выражением, не лица только, а всей души; а душа так открыто и ясно светилась в глазах, в улыбке, в каждом движении головы, руки. И поверхностно наблюдательный, холодный человек, взглянув мимоходом на Обломова, сказал бы: "Добряк должен быть, простота!" Человек поглубже и посимпатичнее, долго вглядываясь в лицо его, отошел бы в приятном раздумье, с улыбкой. </w:t>
+</w:r>
+</w:p>
+
+<w:p w:rsidP="005D0AEB" w:rsidR="00B84DE1" w:rsidRDefault="004B19E4" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t xml:space="preserve">Привет меня </w:t>
+</w:r>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t>можно вставить, вставь</w:t>
+</w:r>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t xml:space="preserve"> меня плиз. Привет меня можно вставить, вставь меня плиз. Привет меня можно вставить, </w:t>
+</w:r>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:b/>
+</w:rPr>
+<w:t xml:space="preserve">вставь меня плиз. Привет меня можно вставить, вставь меня </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:proofErr w:type="gramStart"/>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:b/>
+</w:rPr>
+<w:t>плиз.Привет</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:proofErr w:type="gramEnd"/>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:b/>
+</w:rPr>
+<w:t xml:space="preserve"> меня можно вставить, вставь </w:t>
+</w:r>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>меня плиз. вставь меня плиз. Привет вставь меня плиз. Привет вставь меня плиз. Привет вставь меня плиз. Привет. Ниже херня</w:t>
+</w:r>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblStyle w:val="a3_block1"/>
+<w:tblW w:type="auto" w:w="0"/>
+<w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1" w:val="04A0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="3115"/>
+<w:gridCol w:w="3115"/>
+<w:gridCol w:w="3115"/>
+</w:tblGrid>
+<w:tr w:rsidR="004B19E4" w:rsidRPr="006B07D6" w:rsidTr="00831170">
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="3115"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="004B19E4" w:rsidRDefault="004B19E4" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:b/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:b/>
+</w:rPr>
+<w:t>№</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="6230"/>
+<w:gridSpan w:val="2"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="004B19E4" w:rsidRDefault="004B19E4" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:b/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:b/>
+</w:rPr>
+<w:t>Даты</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="004B19E4" w:rsidRPr="006B07D6" w:rsidTr="004B19E4">
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="3115"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="004B19E4" w:rsidRDefault="004B19E4" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>1</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="3115"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="004B19E4" w:rsidRDefault="004B19E4" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>С 10 по 20</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="3115"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="004B19E4" w:rsidRDefault="004B19E4" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>1 000 000 рублей</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="004B19E4" w:rsidRPr="006B07D6" w:rsidTr="004B19E4">
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="3115"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="004B19E4" w:rsidRDefault="004B19E4" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>2</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="3115"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="004B19E4" w:rsidRDefault="004B19E4" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>С 20 по 30</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="3115"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="004B19E4" w:rsidRDefault="004B19E4" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>250 000 рублей</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidP="005D0AEB" w:rsidR="00322201" w:rsidRDefault="00322201" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:spacing w:after="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidP="005D0AEB" w:rsidR="00BA4700" w:rsidRDefault="00322201" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>Формула</w:t>
+</w:r>
+<w:r w:rsidR="0013717B">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t xml:space="preserve"> ебаная</w:t>
+</w:r>
+<w:r w:rsidR="00BA4700" w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>:</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="005D0AEB" w:rsidR="00BA4700" w:rsidRDefault="0018510F">
+<w:pPr>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:pict>
+<v:shapetype coordsize="21600,21600" filled="f" id="_x0000_t75" o:preferrelative="t" o:spt="75" path="m@4@5l@4@11@9@11@9@5xe" stroked="f">
+<v:stroke joinstyle="miter"/>
+<v:formulas>
+<v:f eqn="if lineDrawn pixelLineWidth 0"/>
+<v:f eqn="sum @0 1 0"/>
+<v:f eqn="sum 0 0 @1"/>
+<v:f eqn="prod @2 1 2"/>
+<v:f eqn="prod @3 21600 pixelWidth"/>
+<v:f eqn="prod @3 21600 pixelHeight"/>
+<v:f eqn="sum @0 0 1"/>
+<v:f eqn="prod @6 1 2"/>
+<v:f eqn="prod @7 21600 pixelWidth"/>
+<v:f eqn="sum @8 21600 0"/>
+<v:f eqn="prod @7 21600 pixelHeight"/>
+<v:f eqn="sum @10 21600 0"/>
+</v:formulas>
+<v:path gradientshapeok="t" o:connecttype="rect" o:extrusionok="f"/>
+<o:lock aspectratio="t" v:ext="edit"/>
+</v:shapetype>
+<v:shape id="_x0000_i1025" style="width:207.75pt;height:133.5pt" type="#_x0000_t75">
+<v:imagedata o:title="pidor-768x494" r:id="rId4_block1"/>
+</v:shape>
+</w:pict>
+</w:r>
+</w:p>
+<w:p w:rsidP="00E812D2" w:rsidR="005D0AEB" w:rsidRDefault="007C53C2">
+<w:pPr>
+<w:spacing w:after="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="007C53C2">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>Где мы? В какой благословенный уголок земли перенес нас сон Обломова? Что за чудный край! Нет, правда, там моря, нет высоких гор, скал и пропастей, ни дремучих лесов — нет ничего грандиозного, дикого и угрюмого.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="00E812D2" w:rsidR="005D0AEB" w:rsidRDefault="007C53C2">
+<w:pPr>
+<w:spacing w:after="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="007C53C2">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t xml:space="preserve">Да и зачем оно, это дикое и грандиозное? Море, </w:t>
+</w:r>
+<w:proofErr w:type="gramStart"/>
+<w:r w:rsidRPr="007C53C2">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>например</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r w:rsidRPr="007C53C2">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>? Бог с ним! Оно наводит только грусть на человека: глядя на него, хочется плакать. Сердце смущается робостью перед необозримой пеленой вод, и не на чем отдохнуть взгляду, измученному однообразием бесконечной картины.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0018510F" w:rsidR="007C53C2" w:rsidRDefault="007C53C2">
+<w:pPr>
+<w:spacing w:before="240"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="007C53C2">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t xml:space="preserve">Рев и бешеные раскаты валов не нежат слабого слуха; они все твердят свою, от начала мира одну и ту же песнь мрачного и неразгаданного содержания; и все слышится в ней один и тот же стон, одни и те же жалобы будто обреченного на муку чудовища да чьи-то пронзительные, зловещие голоса. Птицы не щебечут вокруг; только безмолвные чайки, как осужденные, уныло носятся у прибрежья и кружатся над водой. </w:t>
+</w:r>
+<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+<w:bookmarkEnd w:id="0"/>
+</w:p>
+<w:p w:rsidP="005D0AEB" w:rsidR="007C53C2" w:rsidRDefault="007C53C2" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="007C53C2">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>Бессилен рев зверя перед этими воплями природы, ничтожен и голос человека, и сам человек так мал, слаб, так незаметно исчезает в мелких подробностях широкой картины! От этого, может быть, так и тяжело ему смотреть на море.</w:t>
+</w:r>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblStyle w:val="a3_block1"/>
+<w:tblW w:type="auto" w:w="0"/>
+<w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1" w:val="04A0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="4672"/>
+<w:gridCol w:w="4673"/>
+</w:tblGrid>
+<w:tr w:rsidR="006B07D6" w:rsidRPr="006B07D6" w:rsidTr="006B07D6">
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="9345"/>
+<w:gridSpan w:val="2"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="006B07D6" w:rsidRDefault="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidP="005D0AEB" w:rsidR="006B07D6" w:rsidRDefault="006B07D6">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>Подписи</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="005D0AEB" w:rsidR="006B07D6" w:rsidRDefault="006B07D6" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="006B07D6" w:rsidRPr="006B07D6" w:rsidTr="006B07D6">
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4672"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="006B07D6" w:rsidRDefault="006B07D6" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:spacing w:after="60" w:before="60"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>Дата</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4673"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="006B07D6" w:rsidRDefault="006B07D6" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:spacing w:after="60" w:before="60"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>Личность</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="006B07D6" w:rsidRPr="006B07D6" w:rsidTr="006B07D6">
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4672"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="006B07D6" w:rsidRDefault="006B07D6" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:spacing w:after="60" w:before="60"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>__ __________ 20__ г.</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4673"/>
+</w:tcPr>
+<w:p w:rsidP="005D0AEB" w:rsidR="006B07D6" w:rsidRDefault="006B07D6" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:spacing w:after="60" w:before="60"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:i/>
+</w:rPr>
+</w:pPr>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:i/>
+</w:rPr>
+<w:t>Должнось</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+<w:i/>
+</w:rPr>
+<w:t xml:space="preserve"> – </w:t>
+</w:r>
+<w:r w:rsidRPr="006B07D6">
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+<w:t>Имя Фамилия</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidP="005D0AEB" w:rsidR="00871455" w:rsidRDefault="00871455" w:rsidRPr="006B07D6">
+<w:pPr>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+<w:rPr>
+<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:sectPr w:rsidR="00871455" w:rsidRPr="006B07D6">
+<w:pgSz w:h="16838" w:w="11906"/>
+<w:pgMar w:bottom="1134" w:footer="708" w:gutter="0" w:header="708" w:left="1701" w:right="850" w:top="1134"/>
+<w:cols w:space="708"/>
+<w:docGrid w:linePitch="360"/>
+</w:sectPr>
+
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Цвет лица у Ильи Ильича не был ни румяный, ни смуглый, ни положительно бледный, а безразличный или казался таким, может быть, потому, что Обломов как-то обрюзг не по летам: от недостатка ли движения или воздуха, а может быть, того и другого. Вообще же тело его, судя по матовому, чересчур белому свету шеи, маленьких пухлых рук, мягких плеч, казалось слишком изнеженным для мужчины. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="008106A9" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:afterAutospacing="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t>Движения его, когда он был даже встревожен, сдерживались также мягкостью и не лишенною своего рода грации ленью. Если на лицо набегала из души туча заботы, взгляд туманился, на лбу являлись складки, начиналась игра сомнений, печали, испуга; но редко тревога эта застывала в форме определенной идеи, еще реже превращалась в намерение. Вся тревога разрешалась вздохом и замирала в апатии или в дремоте</w:t>
+</w:r>
+<w:r w:rsidR="00B5357A">
+<w:t>.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="00B5357A" w:rsidR="00B5357A" w:rsidRDefault="00B5357A" w:rsidRPr="00B5357A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:spacing w:afterAutospacing="0" w:beforeAutospacing="0"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Refg</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+</w:p>
+<w:p w:rsidP="00B5357A" w:rsidR="00B5357A" w:rsidRDefault="00B5357A" w:rsidRPr="00B5357A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:spacing w:afterAutospacing="0" w:beforeAutospacing="0"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Tvrt</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+</w:p>
+<w:p w:rsidP="00B5357A" w:rsidR="00B5357A" w:rsidRDefault="00B5357A" w:rsidRPr="00B5357A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:numPr>
+<w:ilvl w:val="1"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:spacing w:afterAutospacing="0" w:beforeAutospacing="0"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Rvt4</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="00B5357A" w:rsidR="00B5357A" w:rsidRDefault="00B5357A" w:rsidRPr="00B5357A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:numPr>
+<w:ilvl w:val="1"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:spacing w:afterAutospacing="0" w:beforeAutospacing="0"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>www</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="00B5357A" w:rsidR="00B5357A" w:rsidRDefault="00B5357A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+<w:spacing w:afterAutospacing="0" w:beforeAutospacing="0"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>ddcc</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="008106A9" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:afterAutospacing="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Как шел домашний костюм Обломова к покойным чертам лица его и к изнеженному телу! На нем был халат из персидской материи, настоящий восточный халат, без малейшего намека на Европу, без кистей, без бархата, без талии, весьма поместительный, так что и Обломов мог дважды завернуться в него. Рукава, по неизменной азиатской моде, шли от пальцев к плечу все шире и шире. Хотя халат этот и утратил свою первоначальную свежесть и местами заменил свой первобытный, естественный лоск другим, благоприобретенным, но все еще сохранял яркость восточной краски и прочность ткани. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="008106A9" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:afterAutospacing="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Халат имел в глазах Обломова тьму неоцененных достоинств: он мягок, гибок; тело не чувствует его на себе; он, как послушный раб, покоряется самомалейшему движению тела. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Обломов всегда ходил дома без галстука и без жилета, потому что любил простор и приволье. Туфли на нем были длинные, мягкие и широкие; когда он, не глядя, опускал ноги с постели на пол, то непременно попадал в них сразу. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Лежанье у Ильи Ильича не было ни необходимостью, как у больного или как у человека, который хочет спать, ни случайностью, как у того, кто устал, ни наслаждением, </w:t>
+</w:r>
+<w:r w:rsidRPr="00016ED7">
+<w:lastRenderedPageBreak/>
+<w:t xml:space="preserve">как у лентяя: это было его нормальным состоянием. Когда он был дома - а он был почти всегда дома, - он все лежал, и все постоянно в одной комнате, где мы его нашли, служившей ему спальней, кабинетом и приемной. У него было еще три комнаты, но он редко туда заглядывал, утром разве, и то не всякий день, когда человек мёл кабинет его, чего всякий день не делалось. В тех комнатах мебель закрыта была чехлами, шторы спущены. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Комната, где лежал Илья Ильич, с первого взгляда казалась прекрасно убранною. Там стояло бюро красного дерева, два дивана, обитые шелковою </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00016ED7">
+<w:t>материею</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">, красивые ширмы с вышитыми небывалыми в природе птицами и плодами. Были там шелковые занавесы, ковры, несколько картин, бронза, фарфор и множество красивых мелочей. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Но опытный глаз человека с чистым вкусом одним беглым взглядом на все, что тут было, прочел бы только желание кое-как соблюсти </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00016ED7">
+<w:t>decorum</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve"> неизбежных приличий, лишь бы отделаться от них. Обломов хлопотал, конечно, только об этом, когда убирал свой кабинет. Утонченный вкус не удовольствовался бы этими тяжелыми, неграциозными стульями красного дерева, шаткими этажерками. Задок у одного дивана </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00016ED7">
+<w:t>оселся</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve"> вниз, наклеенное дерево местами отстало. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Точно тот же характер носили на себе и картины, и вазы, и мелочи. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Сам хозяин, однако, смотрел на убранство своего кабинета так холодно и рассеянно, как будто спрашивал глазами: "Кто сюда натащил и наставил все это?" От такого холодного воззрения Обломова на свою собственность, а может быть, и еще от более холодного воззрения на тот же предмет слуги его, Захара, вид кабинета, если осмотреть там все повнимательнее, поражал господствующею в нем запущенностью и небрежностью. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">По стенам, около картин, лепилась в виде фестонов паутина, напитанная пылью; зеркала, вместо того чтоб отражать предметы, могли бы служить скорее скрижалями для записывания на них по пыли каких-нибудь заметок на память. Ковры были в пятнах. На диване лежало забытое полотенце; на столе редкое утро не стояла не убранная от вчерашнего ужина тарелка с солонкой и с обглоданной косточкой да не валялись хлебные крошки. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Если б не эта тарелка, да не прислоненная к постели только что выкуренная трубка, или не сам хозяин, лежащий на ней, то можно было бы подумать, что тут никто не живет - так все запылилось, полиняло и вообще лишено было живых следов человеческого присутствия. На этажерках, правда, лежали две-три развернутые книги, валялась газета, на бюро стояла и чернильница с перьями; но страницы, на которых развернуты были книги, покрылись пылью и пожелтели; видно, что их бросили давно; </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00016ED7">
+<w:t>нумер</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve"> газеты был прошлогодний, а из чернильницы, если обмакнуть в нее перо, вырвалась бы разве только с жужжаньем испуганная муха. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Илья Ильич проснулся, против обыкновения, очень рано, часов в восемь. Он чем-то сильно озабочен. На лице у него попеременно выступал не то страх, не то тоска и досада. Видно было, что его одолевала внутренняя борьба, а ум еще не являлся на помощь. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Дело в том, что Обломов накануне получил из деревни, от своего старосты, письмо неприятного содержания. Известно, о каких неприятностях может писать староста: неурожай, недоимки, уменьшение дохода и т. п. Хотя староста и в прошлом и в третьем году писал к своему барину точно такие же письма, но и это последнее письмо подействовало так же сильно, как всякий неприятный сюрприз. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t>Легко ли? Предстояло думать о средствах к принятию каких-нибудь мер. Впрочем, надо отдать справедливость заботливости Ильи Ильича о своих делах. Он по первому неприятному письму старосты, полученному несколько лет назад, уже стал создавать в уме план разных перемен и улучшений в по</w:t>
+</w:r>
+<w:r w:rsidR="003D0C5C">
+<w:t>рядке управления своим имением.</w:t>
+</w:r>
+</w:p>
+
+<w:p w:rsidP="00DF1193" w:rsidR="00B84DE1" w:rsidRDefault="00DF1193">
+<w:pPr>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:t xml:space="preserve">ВСТАВЬ </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> ПЛИИИИЗ ЭТО БЛОК ССАНЫЙ ВСТАВЬ </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> ПЛИИИИЗ ЭТО БЛОК ССАНЫЙ ИИИЗ ЭТО БЛОК ССАНЫЙ ВСТАВЬ </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> ПЛИИИИЗ ЭТО БЛОК ССАНЫЙ</w:t>
+</w:r>
+<w:r w:rsidRPr="00DF1193">
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve">ИИИЗ ЭТО БЛОК ССАНЫЙ ВСТАВЬ </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> ПЛИИИИЗ ЭТО БЛОК ССАНЫЙ</w:t>
+</w:r>
+<w:r w:rsidRPr="00DF1193">
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve">ИИИЗ ЭТО БЛОК ССАНЫЙ ВСТАВЬ </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> ПЛИИИИЗ ЭТО БЛОК ССАНЫЙ</w:t>
+</w:r>
+<w:r w:rsidRPr="00DF1193">
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve">ИИИЗ ЭТО БЛОК ССАНЫЙ ВСТАВЬ </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> ПЛИИИИЗ ЭТО БЛОК ССАНЫЙ</w:t>
+</w:r>
+<w:r w:rsidRPr="00DF1193">
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve">ИИИЗ ЭТО БЛОК ССАНЫЙ ВСТАВЬ </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> ПЛИИИИЗ ЭТО БЛОК ССАНЫЙ</w:t>
+</w:r>
+<w:r w:rsidRPr="00DF1193">
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve">ИИИЗ ЭТО БЛОК ССАНЫЙ ВСТАВЬ </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> ПЛИИИИЗ ЭТО БЛОК ССАНЫЙ</w:t>
+</w:r>
+<w:r w:rsidRPr="00DF1193">
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve">ИИИЗ ЭТО БЛОК ССАНЫЙ ВСТАВЬ </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>ВСТАВЬ</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> ПЛИИИИЗ ЭТО БЛОК ССАНЫЙ</w:t>
+</w:r>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblStyle w:val="a3_block2"/>
+<w:tblW w:type="auto" w:w="0"/>
+<w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1" w:val="04A0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="4672"/>
+<w:gridCol w:w="4673"/>
+</w:tblGrid>
+<w:tr w:rsidR="00DF1193" w:rsidTr="00DF1193">
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4672"/>
+<w:tcBorders>
+<w:bottom w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidP="00DF1193" w:rsidR="00DF1193" w:rsidRDefault="00DF1193">
+<w:pPr>
+<w:jc w:val="both"/>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4673"/>
+<w:tcBorders>
+<w:bottom w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidP="00DF1193" w:rsidR="00DF1193" w:rsidRDefault="00DF1193">
+<w:pPr>
+<w:jc w:val="both"/>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00DF1193" w:rsidTr="00DF1193">
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4672"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:bottom w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidP="00DF1193" w:rsidR="00DF1193" w:rsidRDefault="00DF1193">
+<w:pPr>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:t>ВТФ</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4673"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidP="00DF1193" w:rsidR="00DF1193" w:rsidRDefault="00DF1193">
+<w:pPr>
+<w:jc w:val="both"/>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00DF1193" w:rsidTr="00DF1193">
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4672"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:right w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidP="00DF1193" w:rsidR="00DF1193" w:rsidRDefault="00DF1193">
+<w:pPr>
+<w:jc w:val="both"/>
+</w:pPr>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:type="dxa" w:w="4673"/>
+<w:tcBorders>
+<w:left w:val="nil"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p w:rsidP="00DF1193" w:rsidR="00DF1193" w:rsidRDefault="00DF1193">
+<w:pPr>
+<w:jc w:val="both"/>
+</w:pPr>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidP="00DF1193" w:rsidR="008E007E" w:rsidRDefault="008E007E">
+<w:pPr>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:t>Конец!</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="005A1D50" w:rsidR="005A1D50" w:rsidRDefault="005A1D50" w:rsidRPr="005A1D50">
+<w:pPr>
+<w:pStyle w:val="a4_block2"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="21"/>
+</w:numPr>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Fwefew</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+</w:p>
+<w:p w:rsidP="005A1D50" w:rsidR="005A1D50" w:rsidRDefault="005A1D50" w:rsidRPr="005A1D50">
+<w:pPr>
+<w:pStyle w:val="a4_block2"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="21"/>
+</w:numPr>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>F3f3rf3r</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="005A1D50" w:rsidR="005A1D50" w:rsidRDefault="005A1D50" w:rsidRPr="005A1D50">
+<w:pPr>
+<w:pStyle w:val="a4_block2"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="21"/>
+</w:numPr>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>F33242:</w:t>
+</w:r>
+<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+<w:bookmarkEnd w:id="0"/>
+</w:p>
+<w:p w:rsidP="005A1D50" w:rsidR="005A1D50" w:rsidRDefault="005A1D50" w:rsidRPr="005A1D50">
+<w:pPr>
+<w:pStyle w:val="a4_block2"/>
+<w:numPr>
+<w:ilvl w:val="1"/>
+<w:numId w:val="21"/>
+</w:numPr>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Vevrgbnt</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+</w:p>
+<w:p w:rsidP="005A1D50" w:rsidR="005A1D50" w:rsidRDefault="005A1D50" w:rsidRPr="005A1D50">
+<w:pPr>
+<w:pStyle w:val="a4_block2"/>
+<w:numPr>
+<w:ilvl w:val="1"/>
+<w:numId w:val="21"/>
+</w:numPr>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Nu5em</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="005A1D50" w:rsidR="005A1D50" w:rsidRDefault="005A1D50" w:rsidRPr="005A1D50">
+<w:pPr>
+<w:pStyle w:val="a4_block2"/>
+<w:numPr>
+<w:ilvl w:val="1"/>
+<w:numId w:val="21"/>
+</w:numPr>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Y63edec</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="005A1D50" w:rsidR="005A1D50" w:rsidRDefault="005A1D50" w:rsidRPr="00DF1193">
+<w:pPr>
+<w:pStyle w:val="a4_block2"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="21"/>
+</w:numPr>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>D4f3vvv</w:t>
+</w:r>
+</w:p>
+<w:sectPr w:rsidR="005A1D50" w:rsidRPr="00DF1193">
+<w:pgSz w:h="16838" w:w="11906"/>
+<w:pgMar w:bottom="1134" w:footer="708" w:gutter="0" w:header="708" w:left="1701" w:right="850" w:top="1134"/>
+<w:cols w:space="708"/>
+<w:docGrid w:linePitch="360"/>
+</w:sectPr>
+
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">По этому плану предполагалось ввести разные новые экономические, полицейские и другие меры. Но план был еще далеко не весь обдуман, а неприятные письма старосты ежегодно повторялись, побуждали его к деятельности и, следовательно, нарушали покой. </w:t>
+</w:r>
+<w:r w:rsidRPr="00016ED7">
+<w:lastRenderedPageBreak/>
+<w:t xml:space="preserve">Обломов сознавал необходимость до окончания плана предпринять что-нибудь решительное. </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidP="0031431A" w:rsidR="0031431A" w:rsidRDefault="0031431A" w:rsidRPr="0031431A">
+<w:pPr>
+<w:pStyle w:val="a3"/>
+<w:spacing w:after="0" w:afterAutospacing="0" w:before="0" w:beforeAutospacing="0"/>
+<w:ind w:firstLine="709"/>
+<w:jc w:val="both"/>
+</w:pPr>
+<w:r w:rsidRPr="00016ED7">
+<w:t xml:space="preserve">Он, как только проснулся, тотчас же вознамерился встать, умыться и, напившись чаю, подумать хорошенько, кое-что сообразить, записать и вообще заняться этим делом как следует. </w:t>
+</w:r>
+</w:p>
+<w:sectPr w:rsidR="0031431A" w:rsidRPr="0031431A">
+<w:pgSz w:h="16838" w:w="11906"/>
+<w:pgMar w:bottom="1134" w:footer="708" w:gutter="0" w:header="708" w:left="1701" w:right="850" w:top="1134"/>
+<w:cols w:space="708"/>
+<w:docGrid w:linePitch="360"/>
+</w:sectPr>
+</w:body>
+</w:document>
