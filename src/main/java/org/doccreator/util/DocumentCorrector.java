@@ -17,7 +17,7 @@ import java.util.zip.ZipOutputStream;
 public class DocumentCorrector {
     public static void removeMarks(XWPFDocument doc) throws InvalidFormatException, IOException {
         List<XWPFParagraph> deletedParagraphs  = doc.getParagraphs().stream()
-                .filter(p -> StringUtils.equalsIgnoreCase("//del", p.getParagraphText()))
+                .filter(p -> p.getParagraphText().equals("//del"))
                 .collect(Collectors.toList());
         for(XWPFParagraph deletedParagraph: deletedParagraphs){
             doc.removeBodyElement(doc.getPosOfParagraph(deletedParagraph));

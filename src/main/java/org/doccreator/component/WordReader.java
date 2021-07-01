@@ -3,11 +3,11 @@ package org.doccreator.component;
 import org.doccreator.util.DOMOperationUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.*;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 @Component
 public class WordReader {
@@ -23,58 +23,71 @@ public class WordReader {
     public void searchLinks(File wordFile) throws Exception {
         //достаем из архива содержимое файла docx
         archiver.unzipTemplate(wordFile);
+        String baseTemplate = wordFile.getName().replace(".docx","");
 
-        //смотрим document.xml
-        File documentXml = new File(OPERATING_ROOM.concat("//" + wordFile.getName().replace("docx","")).concat("//word//document.xml"));
-        Document base = DOMOperationUtil.createDocument(documentXml);
-        NodeList paragraphs = base.getElementsByTagName("w:p");
-        for(int i=paragraphs.getLength()-1; i>=0; i--){
-            Node paragraph = paragraphs.item(i);
-
-            //ищем ссылку на сабдокументы/блоки в параграфе
-            String link = searchLink(paragraph);
-            if(link != null) {
-                String childFolderName = link
-                        .replace("MERGEFIELD  //@", "")
-                        .replace("\\* MERGEFORMAT","")
-                        .replace("«//@","")
-                        .replace("»","")
-                        .trim();
-                System.out.println(childFolderName);
-                File childTemplateFile = new File(TEMPLATE_ROOM.concat("//" + childFolderName).concat(".docx"));
-                archiver.unzipTemplate(childTemplateFile);
-
-                WordInjector wordInjector = new WordInjector(wordFile.getName().replace(".docx",""), childFolderName);
-
-                //Дополняем [Content_Types].xml
-                wordInjector.injectContentTypesXml();
-
-                //Вставляем ссылки сабдокумента
-                wordInjector.renameChildReferences();
-                wordInjector.injectReferences();
-
-                //Вставляем медиа-файлы сабдокумента
-                wordInjector.renameChildImageData();
-                wordInjector.injectMedia();
-
-                //Вставляем стили сабдокумента
-                wordInjector.renameChildStyleInDocumentXml();
-                wordInjector.renameChildStyleIdInStyleXml();
-                wordInjector.injectStyles();
-
-                //Вставляем параметры списков
-                wordInjector.renameChildNumberingInNumberingXml();
-                wordInjector.renameChildNumberingInDocumentXml();
-                wordInjector.renameBaseNumberingInNumberingXml();
-                wordInjector.injectNumbering();
-
-                //Вставляем содержание сабдокумента
-                wordInjector.injectChildParagraphs(i);
-            }
+        //смотрим document.xml и ищем ссылки
+        File documentXml = new File(OPERATING_ROOM.concat("//" + baseTemplate).concat("//word//document.xml"));
+        Document baseDoc = DOMOperationUtil.createDocument(documentXml);
+        Element baseBody = (Element) baseDoc.getElementsByTagName("w:body").item(0);
+        List<String> links = new ArrayList<>();
+        for(int i=0; i<baseBody.getChildNodes().getLength(); i++) {
+            Element paragraph = (Element) baseBody.getChildNodes().item(i);
+            String link = markParagraph(baseDoc, documentXml, paragraph);
+            if(link != null) links.add(link);
+            DOMOperationUtil.transform(baseDoc, documentXml);
         }
+
+        //отрабатываем ссылки
+        for(String link: links) {
+            System.out.println(link);
+            File childTemplateFile = new File(TEMPLATE_ROOM.concat("//" + link).concat(".docx"));
+            archiver.unzipTemplate(childTemplateFile);
+
+            WordInjector wordInjector = new WordInjector(baseTemplate, link);
+
+            //Дополняем [Content_Types].xml
+            wordInjector.injectContentTypesXml();
+
+            //Вставляем ссылки сабдокумента
+            wordInjector.renameInsertedReferences();
+            wordInjector.injectReferences();
+
+            //Вставляем медиа-файлы сабдокумента
+            wordInjector.renameInsertedImageData();
+            wordInjector.injectMedia();
+
+            //Вставляем стили сабдокумента
+            wordInjector.renameStyleInDocumentXml();
+            wordInjector.renameInsertedStyleIdInStyleXml();
+            wordInjector.injectStyles();
+
+            //Вставляем параметры списков
+            wordInjector.renameInsertedNumberingInNumberingXml();
+            wordInjector.renameInsertedNumberingInDocumentXml();
+            wordInjector.renameBaseNumberingInNumberingXml();
+            wordInjector.injectNumbering();
+
+            //Вставляем содержание сабдокумента
+            wordInjector.injectParagraphs(link);
+
+            //Удаляем параграф с ссылкой
+            wordInjector.removeParagraph(link);
+        }
+
+        archiver.zipTemplate(new File(OPERATING_ROOM.concat("//" + baseTemplate)));
     }
 
-    public String searchLink(Node node){
+    private String markParagraph(Document doc, File documentXml, Element paragraph) throws Exception {
+        String mark;
+        if((mark = searchMark(paragraph)) != null){
+            paragraph.setAttribute("extId", mark);
+            return mark;
+            //возможно стоит склеивать
+        }
+        return null;
+    }
+
+    private String searchMark(Node node){
         NodeList childNodes = node.getChildNodes();
         if(childNodes != null){
             for(int i=0; i<childNodes.getLength(); i++){
@@ -82,8 +95,12 @@ public class WordReader {
                 String value = currNode.getNodeValue();
                 String link = null;
                 if((value != null)&&(value.contains("//@block"))) {
-                    link = value;
-                }else link = searchLink(currNode);
+                    link = value.replace("MERGEFIELD  //@", "")
+                            .replace("\\* MERGEFORMAT","")
+                            .replace("«//@","")
+                            .replace("»","")
+                            .trim();
+                }else link = searchMark(currNode);
                 if(link != null) return link;
             }
         }

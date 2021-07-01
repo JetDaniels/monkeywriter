@@ -1,15 +1,17 @@
 package org.doccreator.component;
 
+import net.lingala.zip4j.ZipFile;
 import org.doccreator.config.EnvironmentsConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.SimpleFileVisitor;
+import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Arrays;
 import java.util.List;
 import java.util.zip.ZipEntry;
@@ -19,6 +21,7 @@ import java.util.zip.ZipOutputStream;
 @Component
 public class Archiver {
     private final static String OPERATING_ROOM = "D://JavaProjects//monkeywriter//operatingRoom";
+    private final static String RESULT_ROOM = "D://JavaProjects//monkeywriter//buffer";
     private final static String TEMPLATE_ROOM = "src//main//resources//templates";
 
     public Archiver(){}
@@ -58,21 +61,20 @@ public class Archiver {
         zin.close();
     }
 
-    public void zip(File folder) throws Exception {
-        File[] arrFiles = folder.listFiles();
-        if (arrFiles == null) throw new Exception("folder is empty: " + folder.getAbsolutePath());
-        List<File> fileList = Arrays.asList(arrFiles);
-        for(File file:fileList){
-            ZipOutputStream zout = new ZipOutputStream(
-                    new FileOutputStream(folder.getAbsolutePath() + "//" + folder.getName() + ".zip")
-            );
-            FileInputStream fis = new FileInputStream(file);
-            ZipEntry entry = new ZipEntry(file.getAbsolutePath());
-            zout.putNextEntry(entry);
-            byte[] buffer = new byte[fis.available()];
-            fis.read(buffer);
-            zout.write(buffer);
-            zout.closeEntry();;
-        }
+    public void zipTemplate(File sourceFolder) throws Exception {
+        Path sourceFolderPath = sourceFolder.toPath();
+        File zipFile = new File(RESULT_ROOM.concat("//").concat(sourceFolder.getName()).concat(".zip"));
+        Path zipPath = zipFile.toPath();
+        ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(zipPath.toFile()));
+        Files.walkFileTree(sourceFolderPath, new SimpleFileVisitor<Path>() {
+            public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+                zos.putNextEntry(new ZipEntry(sourceFolderPath.relativize(file).toString()));
+                Files.copy(file, zos);
+                zos.closeEntry();
+                return FileVisitResult.CONTINUE;
+            }
+        });
+        zos.close();
+        zipFile.renameTo(new File(zipFile.getAbsolutePath().replace(".zip", ".docx")));
     }
 }

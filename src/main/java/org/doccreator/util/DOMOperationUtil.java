@@ -13,16 +13,15 @@ import java.io.File;
 
 public class DOMOperationUtil {
     public static Document createDocument(File file) throws Exception {
-        DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = documentBuilderFactory.newDocumentBuilder();
+        DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
         Document document = builder.parse(file);
         document.getDocumentElement().normalize();
         return document;
     }
 
+
     public static void transform(Document base, File file) throws Exception {
-        TransformerFactory transformerFactory = TransformerFactory.newInstance();
-        Transformer transformer = transformerFactory.newTransformer();
+        Transformer transformer = TransformerFactory.newInstance().newTransformer();
         base.getDocumentElement().normalize();
         DOMSource source = new DOMSource(base);
         StreamResult result = new StreamResult(file);

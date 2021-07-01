@@ -433,6 +433,61 @@
 <w:lang w:eastAsia="ru-RU"/>
 </w:rPr>
 </w:style>
+<w:style w:default="1" w:styleId="a_block1" w:type="paragraph">
+<w:name w:val="Normal"/>
+<w:qFormat/>
+</w:style>
+<w:style w:default="1" w:styleId="a0_block1" w:type="character">
+<w:name w:val="Default Paragraph Font"/>
+<w:uiPriority w:val="1"/>
+<w:semiHidden/>
+<w:unhideWhenUsed/>
+</w:style>
+<w:style w:default="1" w:styleId="a1_block1" w:type="table">
+<w:name w:val="Normal Table"/>
+<w:uiPriority w:val="99"/>
+<w:semiHidden/>
+<w:unhideWhenUsed/>
+<w:tblPr>
+<w:tblInd w:type="dxa" w:w="0"/>
+<w:tblCellMar>
+<w:top w:type="dxa" w:w="0"/>
+<w:left w:type="dxa" w:w="108"/>
+<w:bottom w:type="dxa" w:w="0"/>
+<w:right w:type="dxa" w:w="108"/>
+</w:tblCellMar>
+</w:tblPr>
+</w:style>
+<w:style w:default="1" w:styleId="a2_block1" w:type="numbering">
+<w:name w:val="No List"/>
+<w:uiPriority w:val="99"/>
+<w:semiHidden/>
+<w:unhideWhenUsed/>
+</w:style>
+<w:style w:styleId="a3_block1" w:type="table">
+<w:name w:val="Table Grid"/>
+<w:basedOn w:val="a1"/>
+<w:uiPriority w:val="39"/>
+<w:rsid w:val="004B19E4"/>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+</w:pPr>
+<w:tblPr>
+<w:tblBorders>
+<w:top w:color="auto" w:space="0" w:sz="4" w:val="single"/>
+<w:left w:color="auto" w:space="0" w:sz="4" w:val="single"/>
+<w:bottom w:color="auto" w:space="0" w:sz="4" w:val="single"/>
+<w:right w:color="auto" w:space="0" w:sz="4" w:val="single"/>
+<w:insideH w:color="auto" w:space="0" w:sz="4" w:val="single"/>
+<w:insideV w:color="auto" w:space="0" w:sz="4" w:val="single"/>
+</w:tblBorders>
+</w:tblPr>
+</w:style>
+<w:style w:customStyle="1" w:styleId="p_block1" w:type="character">
+<w:name w:val="p"/>
+<w:basedOn w:val="a0"/>
+<w:rsid w:val="007C53C2"/>
+</w:style>
 <w:style w:default="1" w:styleId="a_block2" w:type="paragraph">
 <w:name w:val="Normal"/>
 <w:qFormat/>
@@ -493,60 +548,5 @@
 <w:ind w:left="720"/>
 <w:contextualSpacing/>
 </w:pPr>
-</w:style>
-<w:style w:default="1" w:styleId="a_block1" w:type="paragraph">
-<w:name w:val="Normal"/>
-<w:qFormat/>
-</w:style>
-<w:style w:default="1" w:styleId="a0_block1" w:type="character">
-<w:name w:val="Default Paragraph Font"/>
-<w:uiPriority w:val="1"/>
-<w:semiHidden/>
-<w:unhideWhenUsed/>
-</w:style>
-<w:style w:default="1" w:styleId="a1_block1" w:type="table">
-<w:name w:val="Normal Table"/>
-<w:uiPriority w:val="99"/>
-<w:semiHidden/>
-<w:unhideWhenUsed/>
-<w:tblPr>
-<w:tblInd w:type="dxa" w:w="0"/>
-<w:tblCellMar>
-<w:top w:type="dxa" w:w="0"/>
-<w:left w:type="dxa" w:w="108"/>
-<w:bottom w:type="dxa" w:w="0"/>
-<w:right w:type="dxa" w:w="108"/>
-</w:tblCellMar>
-</w:tblPr>
-</w:style>
-<w:style w:default="1" w:styleId="a2_block1" w:type="numbering">
-<w:name w:val="No List"/>
-<w:uiPriority w:val="99"/>
-<w:semiHidden/>
-<w:unhideWhenUsed/>
-</w:style>
-<w:style w:styleId="a3_block1" w:type="table">
-<w:name w:val="Table Grid"/>
-<w:basedOn w:val="a1"/>
-<w:uiPriority w:val="39"/>
-<w:rsid w:val="004B19E4"/>
-<w:pPr>
-<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
-</w:pPr>
-<w:tblPr>
-<w:tblBorders>
-<w:top w:color="auto" w:space="0" w:sz="4" w:val="single"/>
-<w:left w:color="auto" w:space="0" w:sz="4" w:val="single"/>
-<w:bottom w:color="auto" w:space="0" w:sz="4" w:val="single"/>
-<w:right w:color="auto" w:space="0" w:sz="4" w:val="single"/>
-<w:insideH w:color="auto" w:space="0" w:sz="4" w:val="single"/>
-<w:insideV w:color="auto" w:space="0" w:sz="4" w:val="single"/>
-</w:tblBorders>
-</w:tblPr>
-</w:style>
-<w:style w:customStyle="1" w:styleId="p_block1" w:type="character">
-<w:name w:val="p"/>
-<w:basedOn w:val="a0"/>
-<w:rsid w:val="007C53C2"/>
 </w:style>
 </w:styles>
