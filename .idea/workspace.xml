@@ -2,13 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ebfb12-e3c7-4f69-855e-783329419d69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/[Content_Types].xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/_rels/.rels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/docProps/app.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/docProps/core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/_rels/document.xml.rels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/document.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/fontTable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/media/image1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/theme/theme1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/webSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/[Content_Types].xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/_rels/.rels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/docProps/app.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/docProps/core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/_rels/document.xml.rels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/document.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/fontTable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/numbering.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/theme/theme1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/webSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/[Content_Types].xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/_rels/.rels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/docProps/app.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/docProps/core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/_rels/document.xml.rels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/document.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/fontTable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/media_block1/image1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/numbering.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/theme/theme1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/webSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/block1788.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/block1789.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/template4.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/block1788.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/block1789.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/template4.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Archiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Archiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/template1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/template1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/template3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/template3.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordReader.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -460,7 +501,7 @@
       <workItem from="1625071266080" duration="1969000" />
       <workItem from="1625073865311" duration="4162000" />
       <workItem from="1625119962907" duration="17378000" />
-      <workItem from="1625146111758" duration="2254000" />
+      <workItem from="1625146111758" duration="2767000" />
     </task>
     <servers />
   </component>
