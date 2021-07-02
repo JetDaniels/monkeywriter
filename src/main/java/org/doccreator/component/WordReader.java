@@ -1,18 +1,19 @@
 package org.doccreator.component;
 
+import fr.opensagres.xdocreport.core.io.XDocArchive;
 import org.doccreator.util.DOMOperationUtil;
+import org.doccreator.util.DocFileStructure;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.*;
-
-import java.io.File;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
 public class WordReader {
-    private final static String OPERATING_ROOM = "D://JavaProjects//monkeywriter//operatingRoom";
-    private final static String TEMPLATE_ROOM = "src//main//resources//templates";
+
+    private final static String TEMPLATES_FOLDER = "src//main//resources//templates";
     private Archiver archiver;
 
     @Autowired
@@ -21,67 +22,36 @@ public class WordReader {
     }
 
     public void searchLinks(File wordFile) throws Exception {
-        //достаем из архива содержимое файла docx
-        archiver.unzipTemplate(wordFile);
-        String baseTemplate = wordFile.getName().replace(".docx","");
-
         //смотрим document.xml и ищем ссылки
-        File documentXml = new File(OPERATING_ROOM.concat("//" + baseTemplate).concat("//word//document.xml"));
+        XDocArchive baseWordArchive = archiver.getArchive(wordFile);
+        InputStream documentXml = archiver.extractFileForRead(baseWordArchive, DocFileStructure.documentXml);
         Document baseDoc = DOMOperationUtil.createDocument(documentXml);
         Element baseBody = (Element) baseDoc.getElementsByTagName("w:body").item(0);
         List<String> links = new ArrayList<>();
         for(int i=0; i<baseBody.getChildNodes().getLength(); i++) {
             Element paragraph = (Element) baseBody.getChildNodes().item(i);
-            String link = markParagraph(baseDoc, documentXml, paragraph);
+            String link = markParagraph(paragraph);
             if(link != null) links.add(link);
-            DOMOperationUtil.transform(baseDoc, documentXml);
         }
+        documentXml = DOMOperationUtil.transform(baseDoc, archiver.extractFileForTransform(baseWordArchive, DocFileStructure.documentXml));
+        archiver.putFile(baseWordArchive, DocFileStructure.documentXml, documentXml);
 
         //отрабатываем ссылки
         for(String link: links) {
             System.out.println(link);
-            File childTemplateFile = new File(TEMPLATE_ROOM.concat("//" + link).concat(".docx"));
-            archiver.unzipTemplate(childTemplateFile);
-
-            WordInjector wordInjector = new WordInjector(baseTemplate, link);
-
-            //Дополняем [Content_Types].xml
-            wordInjector.injectContentTypesXml();
-
-            //Вставляем ссылки сабдокумента
-            wordInjector.renameInsertedReferences();
-            wordInjector.injectReferences();
-
-            //Вставляем медиа-файлы сабдокумента
-            wordInjector.renameInsertedImageData();
-            wordInjector.injectMedia();
-
-            //Вставляем стили сабдокумента
-            wordInjector.renameStyleInDocumentXml();
-            wordInjector.renameInsertedStyleIdInStyleXml();
-            wordInjector.injectStyles();
-
-            //Вставляем параметры списков
-            wordInjector.renameInsertedNumberingInNumberingXml();
-            wordInjector.renameInsertedNumberingInDocumentXml();
-            wordInjector.renameBaseNumberingInNumberingXml();
-            wordInjector.injectNumbering();
-
-            //Вставляем содержание сабдокумента
-            wordInjector.injectParagraphs(link);
-
-            //Удаляем параграф с ссылкой
-            wordInjector.removeParagraph(link);
+            XDocArchive insertedWordArchive = archiver.getArchive(new File(TEMPLATES_FOLDER.concat("//" + link + ".docx")));
+            WordInjector wordInjector = new WordInjector(baseWordArchive, insertedWordArchive, link);
+            archiver.printContent(insertedWordArchive);
+            wordInjector.inject();
         }
-        archiver.zipTemplate(new File(OPERATING_ROOM.concat("//" + baseTemplate)));
+        archiver.writeArchive(baseWordArchive, wordFile.getName());
     }
 
-    private String markParagraph(Document doc, File documentXml, Element paragraph) throws Exception {
+    private String markParagraph(Element paragraph) throws Exception {
         String mark;
         if((mark = searchMark(paragraph)) != null){
             paragraph.setAttribute("extId", mark);
             return mark;
-            //возможно стоит склеивать
         }
         return null;
     }

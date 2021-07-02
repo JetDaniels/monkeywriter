@@ -2,54 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ebfb12-e3c7-4f69-855e-783329419d69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/[Content_Types].xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/_rels/.rels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/docProps/app.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/docProps/core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/_rels/document.xml.rels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/document.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/fontTable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/media/image1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/theme/theme1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block1/word/webSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/[Content_Types].xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/_rels/.rels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/docProps/app.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/docProps/core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/_rels/document.xml.rels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/document.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/fontTable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/numbering.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/theme/theme1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/block2/word/webSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/[Content_Types].xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/_rels/.rels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/docProps/app.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/docProps/core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/_rels/document.xml.rels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/document.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/fontTable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/media_block1/image1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/numbering.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/theme/theme1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operatingRoom/template1/word/webSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/block1788.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/block1789.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/template4.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/block1788.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/block1789.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/template4.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/ArchivedFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DocFileStructure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Archiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/Archiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordInjector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/component/WordReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DOMOperationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/doccreator/util/DOMOperationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/template4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/template4.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/doccreator/component/ArchiverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/doccreator/component/ArchiverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/Archiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordInjector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordInjector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/component/WordReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/doccreator/util/DOMOperationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/doccreator/util/DOMOperationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/doccreator/component/ArchiverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/doccreator/component/ArchiverTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,33 +118,33 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.WordReaderTest.wordReaderTest1">
-    <configuration name="DOMWordParserTest.testParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArchiverTest.archiverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="monkeywriter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.doccreator.component.pojo.*" />
+          <option name="PATTERN" value="org.doccreator.component.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.doccreator.component" />
-      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.DOMWordParserTest" />
-      <option name="METHOD_NAME" value="testParser" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.ArchiverTest" />
+      <option name="METHOD_NAME" value="archiverTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordParserTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArchiverTest.testXDocArchiver1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="monkeywriter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.doccreator.component.pojo.*" />
+          <option name="PATTERN" value="org.doccreator.component.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.doccreator.component" />
-      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.WordParserTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="org.doccreator.component.ArchiverTest" />
+      <option name="METHOD_NAME" value="testXDocArchiver1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -382,20 +349,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DOMWordParserTest.testParser" />
-      <item itemvalue="JUnit.WordParserTest.test1" />
       <item itemvalue="JUnit.WordReaderTest.wordReaderTest1" />
       <item itemvalue="JUnit.WordReaderTest.wordReaderTest2" />
       <item itemvalue="JUnit.WordReaderTest.wordReaderTest3" />
+      <item itemvalue="JUnit.ArchiverTest.archiverTest" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
+      <item itemvalue="JUnit.ArchiverTest.testXDocArchiver1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WordReaderTest.wordReaderTest1" />
-        <item itemvalue="JUnit.WordReaderTest.wordReaderTest2" />
         <item itemvalue="JUnit.WordReaderTest.wordReaderTest3" />
-        <item itemvalue="JUnit.WordParserTest.test1" />
-        <item itemvalue="JUnit.DOMWordParserTest.testParser" />
+        <item itemvalue="JUnit.WordReaderTest.wordReaderTest2" />
+        <item itemvalue="JUnit.ArchiverTest.archiverTest" />
+        <item itemvalue="JUnit.ArchiverTest.testXDocArchiver1" />
       </list>
     </recent_temporary>
   </component>
@@ -501,7 +468,8 @@
       <workItem from="1625071266080" duration="1969000" />
       <workItem from="1625073865311" duration="4162000" />
       <workItem from="1625119962907" duration="17378000" />
-      <workItem from="1625146111758" duration="2767000" />
+      <workItem from="1625146111758" duration="9680000" />
+      <workItem from="1625205078730" duration="28044000" />
     </task>
     <servers />
   </component>
@@ -541,38 +509,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1623070495155" />
-    <state width="1491" height="356" key="GridCell.Tab.0.bottom" timestamp="1625148123296">
+    <state width="1491" height="189" key="GridCell.Tab.0.bottom" timestamp="1625234869381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="356" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625148123296" />
-    <state width="1491" height="356" key="GridCell.Tab.0.center" timestamp="1625148123296">
+    <state width="1491" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625234869381" />
+    <state width="1491" height="189" key="GridCell.Tab.0.center" timestamp="1625234869381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="356" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625148123296" />
-    <state width="1491" height="356" key="GridCell.Tab.0.left" timestamp="1625148123296">
+    <state width="1491" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625234869381" />
+    <state width="1491" height="189" key="GridCell.Tab.0.left" timestamp="1625234869381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="356" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625148123296" />
-    <state width="1491" height="356" key="GridCell.Tab.0.right" timestamp="1625148123296">
+    <state width="1491" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625234869381" />
+    <state width="1491" height="189" key="GridCell.Tab.0.right" timestamp="1625234869381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="356" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625148123296" />
-    <state width="1397" height="664" key="GridCell.Tab.1.bottom" timestamp="1622446631436">
+    <state width="1491" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625234869381" />
+    <state width="1491" height="260" key="GridCell.Tab.1.bottom" timestamp="1625222614339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
-    <state width="1397" height="664" key="GridCell.Tab.1.center" timestamp="1622446631436">
+    <state width="1491" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625222614339" />
+    <state width="1491" height="260" key="GridCell.Tab.1.center" timestamp="1625222614339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
-    <state width="1397" height="664" key="GridCell.Tab.1.left" timestamp="1622446631436">
+    <state width="1491" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1625222614339" />
+    <state width="1491" height="260" key="GridCell.Tab.1.left" timestamp="1625222614339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
-    <state width="1397" height="664" key="GridCell.Tab.1.right" timestamp="1622446631436">
+    <state width="1491" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1625222614339" />
+    <state width="1491" height="260" key="GridCell.Tab.1.right" timestamp="1625222614339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1397" height="664" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622446631436" />
+    <state width="1491" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625222614339" />
     <state width="1397" height="664" key="GridCell.Tab.2.bottom" timestamp="1622446631436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -601,21 +569,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="177" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1624879863315" />
-    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1625046534903">
+    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1625149492887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1625046534903" />
+    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1625149492887" />
     <state x="208" y="0" key="new project wizard" timestamp="1617112648794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="208" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1617112648794" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1624444699123">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1625151758839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1624444699123" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1624195972553">
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1625151758839" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1625152754592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1624195972553" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1625152754592" />
   </component>
 </project>
