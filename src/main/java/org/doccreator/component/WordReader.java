@@ -41,7 +41,6 @@ public class WordReader {
             System.out.println(link);
             XDocArchive insertedWordArchive = archiver.getArchive(new File(TEMPLATES_FOLDER.concat("//" + link + ".docx")));
             WordInjector wordInjector = new WordInjector(baseWordArchive, insertedWordArchive, link);
-            archiver.printContent(insertedWordArchive);
             wordInjector.inject();
         }
         archiver.writeArchive(baseWordArchive, wordFile.getName());
